@@ -72,7 +72,7 @@ Choose one of the following:
 | **http**| Uses port 80 through the server to verify the certificate. [_Default option_]|`standalone`|
 | **dns**| Uses a TXT record in the domain DNS to verify the certificate. Use when you don't have access through port 80. In this case automatic renewal is not available. |`manual`|
 
-**Challenges** 
+##### Challenges
 The `http` challenge uses the `standalone` mode and need an open 80 port through the server to validate your control of the domain.
 The `dns` challenge will prompt you to place a DNS TXT record with specific contents under the domain name. You must do this before continuing with the process.
 
