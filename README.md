@@ -1,9 +1,16 @@
 # Let's Encrypt SSL Certificate Setup Script for FileMaker Server
 
-This script automates the process of obtaining and installing an SSL certificate from the Let's Encrypt Certificate Authority (CA) for FileMaker Server. The certificate is used to encrypt data in motion, enhancing the security of your FileMaker Server setup. Please note that this script will restart FileMaker Server during the installation process.
+This script automates the process of obtaining and installing an SSL certificate from the Let's Encrypt Certificate Authority (CA) for FileMaker Server. 
 
-## Credit 
+## Credit
+
 This is a fork of the work started by: [David Nahodyl, Blue Feather](http://bluefeathergroup.com/blog/how-to-use-lets-encrypt-ssl-certificates-with-filemaker-server/)
+
+## Prerequisites
+
+Before running the script, ensure that Certbot is installed on your system. You can install Certbot from [https://certbot.eff.org](https://certbot.eff.org).
+
+**WARNING: Ensure Certbot is installed before executing the script.**
 
 ## Usage
 
